@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CAFE90531EA3AEBF00258800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE90521EA3AEBF00258800 /* AppDelegate.swift */; };
-		CAFE90551EA3AEBF00258800 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE90541EA3AEBF00258800 /* ViewController.swift */; };
+		CAFE90551EA3AEBF00258800 /* k.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE90541EA3AEBF00258800 /* k.swift */; };
 		CAFE90581EA3AEBF00258800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFE90561EA3AEBF00258800 /* Main.storyboard */; };
 		CAFE905A1EA3AEBF00258800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFE90591EA3AEBF00258800 /* Assets.xcassets */; };
 		CAFE905D1EA3AEBF00258800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFE905B1EA3AEBF00258800 /* LaunchScreen.storyboard */; };
+		CAFE90651EA4AE4D00258800 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE90641EA4AE4D00258800 /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CAFE904F1EA3AEBF00258800 /* emoji dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "emoji dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFE90521EA3AEBF00258800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAFE90541EA3AEBF00258800 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAFE90541EA3AEBF00258800 /* k.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = k.swift; sourceTree = "<group>"; };
 		CAFE90571EA3AEBF00258800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAFE90591EA3AEBF00258800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAFE905C1EA3AEBF00258800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAFE905E1EA3AEBF00258800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFE90641EA4AE4D00258800 /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				CAFE90521EA3AEBF00258800 /* AppDelegate.swift */,
-				CAFE90541EA3AEBF00258800 /* ViewController.swift */,
+				CAFE90541EA3AEBF00258800 /* k.swift */,
+				CAFE90641EA4AE4D00258800 /* DefinitionViewController.swift */,
 				CAFE90561EA3AEBF00258800 /* Main.storyboard */,
 				CAFE90591EA3AEBF00258800 /* Assets.xcassets */,
 				CAFE905B1EA3AEBF00258800 /* LaunchScreen.storyboard */,
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAFE90551EA3AEBF00258800 /* ViewController.swift in Sources */,
+				CAFE90551EA3AEBF00258800 /* k.swift in Sources */,
+				CAFE90651EA4AE4D00258800 /* DefinitionViewController.swift in Sources */,
 				CAFE90531EA3AEBF00258800 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
