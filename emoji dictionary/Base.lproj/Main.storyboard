@@ -63,8 +63,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biertje?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUE-FM-Una">
-                                <rect key="frame" x="67" y="393" width="241" height="90"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <rect key="frame" x="154" y="393" width="67.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: Smiley" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGy-9t-bhj">
+                                <rect key="frame" x="111.5" y="437" width="152.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BirthYear: 2000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yz5-L6-joU">
+                                <rect key="frame" x="118" y="481" width="139.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -72,12 +84,19 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="iZR-bf-rQO" firstAttribute="centerX" secondItem="TNj-Ji-EVv" secondAttribute="centerX" id="59G-Vk-YHX"/>
+                            <constraint firstItem="Yz5-L6-joU" firstAttribute="top" secondItem="eGy-9t-bhj" secondAttribute="bottom" constant="20" id="THR-B6-Ic5"/>
                             <constraint firstItem="iZR-bf-rQO" firstAttribute="top" secondItem="2Al-pQ-9Vl" secondAttribute="bottom" constant="40" id="Uqy-ce-BV4"/>
+                            <constraint firstItem="eGy-9t-bhj" firstAttribute="top" secondItem="UUE-FM-Una" secondAttribute="bottom" constant="20" id="dAH-NH-PTb"/>
                             <constraint firstItem="UUE-FM-Una" firstAttribute="centerX" secondItem="TNj-Ji-EVv" secondAttribute="centerX" id="hop-Hq-YGk"/>
+                            <constraint firstItem="eGy-9t-bhj" firstAttribute="centerX" secondItem="TNj-Ji-EVv" secondAttribute="centerX" id="jHx-ZY-dIq"/>
+                            <constraint firstItem="Yz5-L6-joU" firstAttribute="centerX" secondItem="TNj-Ji-EVv" secondAttribute="centerX" id="ol8-iV-wDp"/>
                             <constraint firstItem="UUE-FM-Una" firstAttribute="top" secondItem="iZR-bf-rQO" secondAttribute="bottom" constant="50" id="p0F-0j-Orq"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="EmojiBirthyear" destination="Yz5-L6-joU" id="Vy9-Bk-RD0"/>
+                        <outlet property="EmojiCategory" destination="eGy-9t-bhj" id="ie7-DM-W1e"/>
+                        <outlet property="EmojiDescription" destination="UUE-FM-Una" id="kaZ-nE-74H"/>
                         <outlet property="MyEmoji" destination="iZR-bf-rQO" id="XXE-4q-Gkn"/>
                     </connections>
                 </viewController>
